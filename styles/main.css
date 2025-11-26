@@ -66,6 +66,39 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/* Fix any Bootstrap default light backgrounds */
+.bg-light, .bg-white {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+/* Fix any Bootstrap default dark text */
+.text-dark, .text-muted {
+  color: #ccc !important;
+}
+
+/* Ensure all card content is readable */
+.card-body, .card-text, .card-title {
+  color: #fff !important;
+}
+
+/* Fix buttons that might be using .btn-light or .btn-secondary */
+.btn-light, .btn-secondary {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: 1px solid #666;
+}
+.btn-light:hover, .btn-secondary:hover {
+  background-color: #444 !important;
+  color: #0d6efd !important;
+}
+
+/* Optional: make all section backgrounds dark */
+section {
+  background-color: #000;
+  color: #fff;
+}
+
 .form-label {
   color: #fff;
 }
@@ -108,3 +141,4 @@ img {
   margin-bottom: 1rem;
 
 }
+
