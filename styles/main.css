@@ -1,0 +1,86 @@
+body {
+  background-color: #000;      
+  color: #fff;                  
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111 !important;
+}
+.navbar .nav-link {
+  color: #fff !important;
+}
+.navbar .nav-link:hover {
+  color: #0d6efd !important; 
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+}
+footer .nav-link {
+  color: #ccc !important;
+}
+footer .nav-link:hover {
+  color: #fff !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.card {
+  background-color: #222; /* dark gray card background */
+  color: #fff;
+  border: 1px solid #444;
+}
+.card .card-title {
+  color: #fff;
+}
+.card .btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.card .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+
+.form-label {
+  color: #fff;
+}
+.form-control {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
+.form-control:focus {
+  background-color: #111;
+  color: #fff;
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+.form-check-label {
+  color: #fff;
+}
+
+a {
+  color: #0d6efd;
+}
+a:hover {
+  color: #66b2ff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
