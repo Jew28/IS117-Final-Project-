@@ -9,9 +9,29 @@
   <link href="styles/main.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
-  <!-- Navbar -->
-  …navbar code…
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="Homepage.html">SteamDeck Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Reviews.html">Reviews</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Games.html" id="gamesDropdown" role="button" data-bs-toggle="dropdown">
+              Games
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Games.html">Game List</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Control.html">Control Layouts</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main id="main" class="py-4">
     <div class="container">
       <header class="mb-4">
@@ -23,7 +43,20 @@
         <div class="col-md-6">
           <article class="p-3 border rounded bg-light h-100">
             <h2 class="h4">Cyberpunk 2077: Ultimate Edition</h2>
-            <p></p>
+            <p>
+              Developer: CD Projekt Red 
+              Release Date: December 10, 2020 
+              Steam Deck Rating: Verified
+
+              "Johnny Silverhand. Rock Legend, Voice In V's Head." 
+                          Johnny Silverhand.
+
+              Personally, I am very fond of science-fiction games and Cyberpunk is favorite one. (Pontentially biased because I bought the SteamDeck to play it )
+              You as V, a mercenerary who becomes best friends with Johnny Silverhand, the voice inside their head. 
+
+              Jokes aside, the game great. I absolutely love the combat (I prefer swords over guns), 
+              
+            </p>
             <a href="Games.html" class="btn btn-sm btn-primary">See Details</a>
           </article>
         </div>
@@ -34,13 +67,22 @@
             <a href="Games.html" class="btn btn-sm btn-primary">See Details</a>
           </article>
         </div>
-        <!-- Add more articles as needed -->
+      
       </div>
     </div>
   </main>
 
-  …footer code…
+ <footer class="mt-auto bg-dark text-light py-3">
+    <div class="container d-flex justify-content-between">
+      <p class="mb-0 small">© 2025 Jailyn Wade. All rights reserved.</p>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light small">Terms</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light small">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
+
 
