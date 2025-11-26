@@ -3,9 +3,31 @@
 <html lang="en">
 <head>…</head>
 <body class="d-flex flex-column min-vh-100">
-  <!-- Navbar (same as Homepage) -->
-  …navbar code…
-
+ 
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="Homepage.html">SteamDeck Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Reviews.html">Reviews</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Games.html" id="gamesDropdown" role="button" data-bs-toggle="dropdown">
+              Games
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Games.html">Game List</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Control.html">Control Layouts</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
   <main id="main" class="py-4">
     <div class="container">
       <header class="mb-4">
