@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steam Deck Reviews</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="Homepage.html">SteamDeck Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Reviews.html">Reviews</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Games.html" id="gamesDropdown" role="button" data-bs-toggle="dropdown">
+              Games
+            </a>
+             <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Cyberpunk.html">Cyberpunk 2077: Ultimate Edition</a></li>
+              <li><a class="dropdown-item" href="TW3.html">The Witcher 3: Wild Hunt</a></li>
+              <li><a class="dropdown-item" href="P3R.html">Persona 3: Reload</a></li>
+              <li><a class="dropdown-item" href="SDV.html">Stardew Valley</a></li>
+               <li><a class="dropdown-item" href="Miku.html">Hatsune Miku: Project Diva Mega Mix +</a></li>
+               
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Optimization.html">Tips</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+            </ul>
+          </li>
+    </div>
+  </nav>
+
+
+<h3 class="display-5 fw-bold">The Witcher 3: Wild Hunt</h3>
+  <h4>
+Developer: CD PROJEKT RED
+Release Date: October 19 2015
+Steam Deck Rating: Verified (one of the top played games on Steam Deck)
+</h4>
+<p>
+Gameplay balances exploration, monster hunting, and choice‑driven quests. 
+The exploration for this game is so good, most times I enjoy walking around the map, looking for more side quests, rather than completing the main ones 
+
+The Combat is so fluid, and its very obvious that this was used as a stepping stone for Cyberpunk 2077's eventual combat system.
+Running the new‑gen version at 45 FPS makes long sessions manageable and allows for longer play sessions without a charger.  
+(Personally, I prefer playing the game on my TV, with my SteamDeck connected via HDMI, with an Xbox controller
+The game reacts to your all of your decisions, so dialogue is just as important as battles. 
+Even the progression system feels intertwined with exploration, with you needing to kill different monsters for materials 
+</p>
+
+    <footer class="mt-auto bg-dark text-light py-3">
+    <div class="container d-flex justify-content-between">
+      <p class="mb-0 small">© 2025 Jailyn Wade. All rights reserved.</p>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light small">Terms</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light small">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
