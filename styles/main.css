@@ -85,6 +85,17 @@ h1, h2, h3, h4, h5 {
     object-fit: cover;
   }
 
+  section {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card {
+  border: 2px solid #fff !important;
+  border-radius: 8px;
+}
+
   .list-group-item {
   background-color: #111 !important;
   color: #fff !important;
@@ -166,6 +177,7 @@ img {
   margin-bottom: 1rem;
 
 }
+
 
 
 
