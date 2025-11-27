@@ -84,6 +84,12 @@ h1, h2, h3, h4, h5 {
     max-height: 150px;
     object-fit: cover;
   }
+
+  .list-group-item {
+  background-color: #111 !important;
+  color: #fff !important;
+  border-color: #444;
+}
   
 /* Fix any Bootstrap default light backgrounds */
 .bg-light, .bg-white {
@@ -160,6 +166,7 @@ img {
   margin-bottom: 1rem;
 
 }
+
 
 
 
